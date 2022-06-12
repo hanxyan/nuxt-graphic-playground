@@ -4,11 +4,13 @@
     "dev": "nuxi dev",
     "build": "nuxi build",
     "start": "node .output/server/index.mjs",
-    "allupdate": "yarn upgrade-interactive"
+    "allupdate": "yarn upgrade-interactive",
+    "commit": "cz"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "5.1.2",
     "autoprefixer": "10.4.7",
+    "commitizen": "^4.2.4",
     "nuxt": "3.0.0-rc.3",
     "postcss-custom-properties": "12.1.7",
     "sass": "1.52.3",
@@ -23,7 +25,8 @@
     "@tailwindcss/forms": "0.5.2",
     "@tailwindcss/line-clamp": "0.4.0",
     "@tailwindcss/typography": "0.5.2",
-    "pinia": "2.0.14"
+    "pinia": "2.0.14",
+    "three": "^0.141.0"
   },
   "engines": {
     "node": "^16.11.0 || ^17.0.0 || || ^18.0.0"
